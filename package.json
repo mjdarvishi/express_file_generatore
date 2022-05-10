@@ -1,0 +1,25 @@
+{
+  "name": "generatore",
+  "version": "0.1.0",
+  "description": "generate controller and route for express project",
+  "keywords": [
+    "gen"
+  ],
+  "main": "cli.js",
+  "author": "mjdarvishi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjdarvishi/generatore"
+  },
+  "bugs": {
+    "url": "https://github.com/mjdarvishi/generatore/issues",
+    "email": "mjdarvishi@gmail.com"
+  },
+  "scripts": {
+    "gen": "node cli.js"
+  },
+  "bin": {
+    "gen": "./cli.js"
+  }
+}

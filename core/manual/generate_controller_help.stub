@@ -1,0 +1,12 @@
+generate CLI
+
+generate generate:controller -n [model name] [options]
+
+Description:
+  Generate only Controller file
+
+Required:
+  -n                      Optional filename for Controller. Default to modelName.toLower() as filename
+
+Options:
+  --help                  Show this help  

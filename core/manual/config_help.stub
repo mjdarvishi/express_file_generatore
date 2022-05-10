@@ -1,0 +1,11 @@
+generate CLI
+
+generate generate:route -[config] [your dest]
+
+Description:
+  Change destination folder for controller and route files
+
+Required:
+  -route_dest                   destination dir address for routes file like /controller
+  -cont_dest                    destination dir address for controllers file like /route
+

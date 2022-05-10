@@ -1,0 +1,25 @@
+const express = require('express')
+const router = express.Router()
+const $$NAME$$Controller = require('../../app/Controllers/$$NAME$$Controller')
+
+router.get('/',$$NAME$$Controller.index)
+
+router.get('/:id',$$NAME$$Controller.create)
+
+router.post('/',$$NAME$$Controller.store)
+
+router.get('/:id',$$NAME$$Controller.show)
+
+router.put('/:id',$$NAME$$Controller.update)
+
+router.delete('/:id',$$NAME$$Controller.destroy)
+
+
+
+module.exports = router
+
+
+
+
+
+

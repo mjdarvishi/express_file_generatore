@@ -1,0 +1,11 @@
+generate CLI
+
+generate [command] [options]
+
+Commands:
+  gen generate:controller              Generates Controllers
+  gen generate:route                   Generates Routes
+  gen change:config                    config destination dir for routes and contollers
+
+Options:
+  --help      Show help

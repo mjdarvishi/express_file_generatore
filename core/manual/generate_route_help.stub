@@ -1,0 +1,13 @@
+generate CLI
+
+generate generate:route -n [route name] [options]
+
+Description:
+  Generate only Route file
+
+Required:
+  -n                      Route name, also being used as the filename
+
+Options:
+  -c                      Optional Controller filename for this route. Default to routeName.toLower() 
+  --help                  Show this help

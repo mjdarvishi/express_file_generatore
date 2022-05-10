@@ -1,0 +1,91 @@
+
+let index = async function (req, res) {
+    try {
+      //TODO WRITE YOUR CODE HERE
+
+
+
+    } catch (err) {
+  
+  
+    }
+}
+
+
+let create = async function (req, res) {
+    const id = req.params.id
+    try {
+      //TODO WRITE YOUR CODE HERE
+
+
+    } catch (err) {
+
+
+    }
+}
+
+
+let store = async function (req, res) {
+    const info = req.body
+    try {
+      //TODO WRITE YOUR CODE HERE
+
+
+
+    } catch (err) {
+
+
+    }
+}
+
+
+let show = async function (req, res) {
+    const id = req.params.id
+    try {
+      //TODO WRITE YOUR CODE HERE
+
+
+
+    } catch (err) {
+
+
+    }
+}
+
+
+let update = async function (req, res) {
+    const id = req.params.id
+    try {
+      //TODO WRITE YOUR CODE HERE
+
+
+
+
+    } catch (err) {
+
+
+    }
+}
+
+ 
+let destroy = async function (req, res) {
+    const id = req.params.id
+    try {
+      //TODO WRITE YOUR CODE HERE
+
+
+
+    } catch (err) {
+
+
+    }
+}
+
+module.exports = {
+    index,
+    create,
+    store,
+    show,
+    update,
+    destroy,
+}
